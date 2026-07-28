@@ -1,0 +1,33 @@
+.action-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.action-card:hover{
+
+    transform:translateY(-8px) scale(1.02);
+
+}
+
+.card-body{
+
+    padding:35px;
+
+    color:white;
+
+}
+
+.icon{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}

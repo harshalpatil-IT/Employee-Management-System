@@ -1,0 +1,89 @@
+.sidebar{
+
+    width:260px;
+
+    height:100vh;
+
+    background:#212529;
+
+    color:white;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.logo{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-bottom:1px solid #444;
+
+}
+
+ul{
+
+    list-style:none;
+
+    padding:20px 0;
+
+    margin:0;
+
+    flex:1;
+
+}
+
+li{
+
+    padding:16px 25px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:17px;
+
+}
+
+li:hover{
+
+    background:#0d6efd;
+
+}
+
+.active{
+
+    background:#0d6efd;
+
+}
+
+.logout-btn{
+
+    margin:20px;
+
+    border:none;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    background:#dc3545;
+
+    color:white;
+
+    font-weight:bold;
+
+}

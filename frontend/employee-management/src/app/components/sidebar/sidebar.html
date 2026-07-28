@@ -1,0 +1,55 @@
+<div class="sidebar">
+
+    <div class="logo">
+
+        Employee Management
+
+    </div>
+
+    <ul>
+
+        <li routerLink="/app/dashboard"
+            routerLinkActive="active">
+
+            🏠 Dashboard
+
+        </li>
+
+        <li routerLink="/app/employees"
+            routerLinkActive="active">
+
+            👥 Employees
+
+        </li>
+
+        <li
+    routerLink="/app/add-employee"
+    routerLinkActive="active">
+
+    ➕ Add Employee
+
+</li>
+
+        <li>
+
+            📊 Reports
+
+        </li>
+
+        <li>
+
+            ⚙ Settings
+
+        </li>
+
+    </ul>
+
+    <button
+        class="logout-btn"
+        (click)="logout()">
+
+        🚪 Logout
+
+    </button>
+
+</div>

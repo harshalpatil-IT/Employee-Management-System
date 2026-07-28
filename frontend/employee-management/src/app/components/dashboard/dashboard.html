@@ -1,0 +1,140 @@
+
+<div class="container-fluid dashboard">
+
+
+    <!-- Welcome -->
+
+    <div class="container mt-4">
+
+         <h2>
+
+            Good Afternoon,
+            {{ fullName }}
+            👋
+
+        </h2>
+
+        <p>
+
+            Welcome back to Employee Management System.
+
+        </p>
+
+
+        <!-- Cards -->
+
+<div class="container mt-5">
+
+    <h3 class="mb-4">
+
+        Welcome,
+        <strong>{{ fullName }}</strong>
+        👋
+
+    </h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+
+            <app-dashboard-card
+
+                title="Total Employees"
+
+                [value]="totalEmployees"
+
+                icon="👨‍💼"
+
+                color="#0d6efd">
+
+            </app-dashboard-card>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <app-dashboard-card
+
+                title="Active Employees"
+
+                [value]="activeEmployees"
+
+                icon="✅"
+
+                color="#198754">
+
+            </app-dashboard-card>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <app-dashboard-card
+
+                title="Inactive Employees"
+
+                [value]="inactiveEmployees"
+
+                icon="❌"
+
+                color="#dc3545">
+
+            </app-dashboard-card>
+
+        </div>
+
+    </div>
+
+</div>
+ 
+</div>
+
+        <!-- Manage Employee -->
+
+        <div class="mt-5">
+
+    <h3 class="mb-4">
+
+        Quick Actions
+
+    </h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+
+            <app-action-card
+
+                title="Manage Employees"
+
+                icon="👥"
+
+                color="#6610f2"
+
+                (actionClick)="manageEmployees()">
+
+            </app-action-card>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <app-action-card
+
+                title="Add Employee"
+
+                icon="➕"
+
+                color="#fd7e14"
+
+                (actionClick)="addEmployee()">
+
+            </app-action-card>
+
+        </div>
+
+    </div>
+
+</div>
+    </div>
+
