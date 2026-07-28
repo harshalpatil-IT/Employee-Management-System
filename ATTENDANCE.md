@@ -7,3 +7,5 @@ Features Planned:
 - Daily Check-in
 - Daily Check-out
 - Attendance Reports
+
+- Attendance module approved by Team Lead.
