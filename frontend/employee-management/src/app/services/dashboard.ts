@@ -7,7 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class DashboardService {
 
-  private apiUrl = 'http://localhost:5000/dashboard';
+ private apiUrl = 'https://employee-management-api-nol1.onrender.com/dashboard';
+
+    // private apiUrl = 'http://localhost:5000/dashboard';
 
   constructor(private http: HttpClient) {}
 
