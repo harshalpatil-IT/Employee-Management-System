@@ -2,3 +2,5 @@ Employee Management System Version A and Version B
 Git Practice Session - 30 July 2026
 Hi new Practice 
 Employee Profile Module Started
+
+Reset Practice - Commit 1
