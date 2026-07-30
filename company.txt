@@ -4,3 +4,5 @@ Hi new Practice
 Employee Profile Module Started
 
 Reset Practice - Commit 1
+Reset Practice - Commit 2
+Reset Practice - Commit 3
