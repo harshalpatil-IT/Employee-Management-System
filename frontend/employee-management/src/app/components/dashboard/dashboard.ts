@@ -62,13 +62,13 @@ fullName = '';
   }
 manageEmployees() {
 
-  this.router.navigate(['/employees']);
+  this.router.navigate(['/app/employees']);
 
 }
 
 addEmployee() {
 
-  alert('Add Employee Module Coming Next');
+  this.router.navigate(['/app/add-employee']);
 
 }
  
